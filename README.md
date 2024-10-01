@@ -1,5 +1,6 @@
 # Sesi-2-PEMROGRAMAN-PERANGKAT-MOBILE
 layout ini dibuat dengan sepenuh hati
+
 import React from 'react';
 import { View, Text, Image, TextInput, ScrollView, FlatList, TouchableOpacity, StyleSheet } from 'react-native';
 
@@ -40,7 +41,7 @@ const App = () => {
         <Image source={require('./Gambar/Nanad.jpg')} style={styles.avatar} />
       </View>
       <View style={styles.searchContainer}>
-        <TextInput style={styles.searchInput} placeholder="Brithday Cake" />
+        <TextInput style={styles.searchInput} placeholder=" Search Brithday Cake" />
       </View>
       <View style={styles.promoBanner}>
         <Image source={require('./Gambar/promo.jpeg')} style={styles.bannerImage} />
@@ -89,9 +90,9 @@ const styles = StyleSheet.create({
   },
   searchInput: {
     height: 40,
-    borderColor: '#ccc',
+    borderColor: '#FFFFFF',
     borderWidth: 5,
-    borderRadius: 8,
+    borderRadius: 100,
     paddingHorizontal: 15,
   },
   promoBanner: {
@@ -152,3 +153,6 @@ const styles = StyleSheet.create({
 });
 
 export default App;
+  
+   
+    
